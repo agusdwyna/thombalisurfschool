@@ -15,7 +15,7 @@ const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(mess
         <img
           src="/Logo.png"
           alt="Thom Bali Surf School"
-          className="w-28 h-24 object-contain" // bisa diperbesar tanpa memengaruhi tinggi header
+          className="w-20 h-20 object-contain" // bisa diperbesar tanpa memengaruhi tinggi header
         />
       </div>
       <h2 className="text-[#101518] text-lg font-bold leading-tight tracking-tight">
