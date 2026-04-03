@@ -1,4 +1,6 @@
+import { Helmet } from "react-helmet";
 import Header from "./components/Header";
+
 
 // ─── Konfigurasi ────────────────────────────────────────────────────
 const WA_NUMBER = "6282146828788"; // Ganti dengan nomor WA aktif
@@ -136,7 +138,18 @@ const PackageCard = ({ pkg }) => (
         Popular
       </span>
     )}
-
+ <Helmet>
+        <title>Thom Bali Surf School - Learn to Surf in Bali</title>
+        <meta
+          name="description"
+          content="Thom Bali Surf School - Beginner-friendly surf lessons, private & group packages, and full amenities in Bali. Book now via WhatsApp!"
+        />
+        <meta
+          name="keywords"
+          content="Thom Bali Surf School, surf lesson Bali, private surf lesson, group surf lesson, Bali surfing"
+        />
+        <meta name="author" content="Thom Bali Surf School" />
+      </Helmet>
     {/* Header */}
     <div className="flex justify-between items-start">
       <div>

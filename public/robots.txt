@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thombalisurfschool.vercel.app/sitemap.xml
