@@ -333,7 +333,7 @@ export default function App() {
           className="w-24 h-24 object-contain" // bisa diperbesar tanpa memengaruhi tinggi header
         />
   
-        <span className="font-bold text-xl tracking-tight">Thom Bali Surf Class</span>
+        <span className="font-bold text-xl tracking-tight">Thom Bali Surf Schoool</span>
       </div>
       <p className="text-sm mb-6">Pantai Nusa Dua, Benoa, Kec. Kuta Sel., Kabupaten Badung, Bali </p>
       <div className="flex justify-center gap-4 mb-8">
