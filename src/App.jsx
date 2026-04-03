@@ -206,9 +206,7 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#fcf9f2] via-[#fcf9f2]/40 to-transparent" />
         </div>
         <div className="relative z-10 space-y-6 max-w-lg md:max-w-2xl">
-          <span className="inline-block bg-[#00833a]/20 text-[#00833a] px-3 py-1 rounded-full text-[10px] font-label font-bold tracking-widest uppercase">
-            Kuta Beach, Bali
-          </span>
+          
           <h1 className="font-headline text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-[#1c1c18] leading-[1.05]">
             Learn to Surf in Bali the{" "}
             <span className="text-[#00672c]">Easy &amp; Fun</span> Way!
