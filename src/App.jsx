@@ -44,7 +44,7 @@ const packages = [
     priceLabel: "IDR",
     features: [
       { icon: "person", text: "1 instructor, 1 student" },
-      { icon: "schedule", text: "1.5 hours session" },
+      { icon: "schedule", text: "2 hours session" },
       { icon: "check_circle", text: "Surf shirt, water, sunblock" },
     ],
     featured: false,
@@ -59,7 +59,7 @@ const packages = [
     priceLabel: "PER PERSON",
     features: [
       { icon: "groups", text: "1 instructor, 2-3 students" },
-      { icon: "schedule", text: "1.5 hours session" },
+      { icon: "schedule", text: "2 hours session" },
       { icon: "check_circle", text: "Surf shirt, water, sunblock" },
     ],
     featured: false,
@@ -74,7 +74,7 @@ const packages = [
     priceLabel: "IDR TOTAL",
     features: [
       { icon: "military_tech", text: "1 instructor, 1 student" },
-      { icon: "date_range", text: "1.5 hours per session" },
+      { icon: "date_range", text: "2 hours per session" },
       { icon: "check_circle", text: "All gear included" },
     ],
     featured: true,
@@ -89,7 +89,7 @@ const packages = [
     priceLabel: "PER PERSON",
     features: [
       { icon: "diversity_3", text: "1 instructor, 2-3 students" },
-      { icon: "date_range", text: "1.5 hours per session" },
+      { icon: "date_range", text: "2 hours per session" },
       { icon: "check_circle", text: "Full amenities included" },
     ],
     featured: false,
