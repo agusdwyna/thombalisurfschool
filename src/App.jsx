@@ -53,7 +53,7 @@ const packages = [
       "Halo Thom Bali Surf School! 🏄\n\nSaya tertarik dengan paket *Private Lesson* (550K IDR / 1 session).\n\nBoleh info ketersediaan jadwal dan cara bookingnya? Terima kasih!",
   },
   {
-    name: "Group Lesson",
+    name: "Semi Privates Lesson",
     sub: "1 Session",
     price: "450K",
     priceLabel: "PER PERSON",
@@ -97,6 +97,22 @@ const packages = [
     waMessage:
       "Halo Thom Bali Surf School! 🏄\n\nSaya tertarik dengan paket *Group Package* (1,200K IDR per orang / 3 hari).\n\nBoleh info ketersediaan dan detail paket seru ini? Terima kasih!",
   },
+
+  {
+  name: "Group Lesson",
+  sub: "Best for Friends",
+  price: "350K",
+  priceLabel: "PER PERSON",
+  features: [
+    { icon: "groups", text: "2 instructors, 3+ students" },
+    { icon: "schedule", text: "2 hours session" },
+    { icon: "check_circle", text: "All equipment included" },
+  ],
+  featured: true,   // 🔥 penting
+  popular: true,    // 🔥 kasih badge
+  waMessage:
+    "Halo Thom Bali Surf School! 🏄\n\nSaya tertarik dengan paket *Super Group Lesson* (350K IDR per orang / 1 session).\n\nBoleh info ketersediaan dan detail untuk group ini? Terima kasih!",
+},
 ];
 
 // ─── Gallery Images ─────────────────────────────────────────────────
