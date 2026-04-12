@@ -67,6 +67,23 @@ const packages = [
     waMessage:
       "Halo Thom Bali Surf School! 🏄\n\nSaya tertarik dengan paket *Group Lesson* (450K IDR per orang / 1 session).\n\nBoleh info ketersediaan dan berapa orang yang bisa join? Terima kasih!",
   },
+
+    {
+  name: "Group Lesson",
+  sub: "Best for Friends",
+  price: "350K",
+  priceLabel: "PER PERSON",
+  features: [
+    { icon: "groups", text: "2 instructors, 3+ students" },
+    { icon: "schedule", text: "2 hours session" },
+    { icon: "check_circle", text: "All equipment included" },
+  ],
+  featured: true,   // 🔥 penting
+  popular: true,    // 🔥 kasih badge
+  waMessage:
+    "Halo Thom Bali Surf School! 🏄\n\nSaya tertarik dengan paket *Super Group Lesson* (350K IDR per orang / 1 session).\n\nBoleh info ketersediaan dan detail untuk group ini? Terima kasih!",
+},
+
   {
     name: "Private Package",
     sub: "3 Days Intense",
@@ -98,21 +115,7 @@ const packages = [
       "Halo Thom Bali Surf School! 🏄\n\nSaya tertarik dengan paket *Group Package* (1,200K IDR per orang / 3 hari).\n\nBoleh info ketersediaan dan detail paket seru ini? Terima kasih!",
   },
 
-  {
-  name: "Group Lesson",
-  sub: "Best for Friends",
-  price: "350K",
-  priceLabel: "PER PERSON",
-  features: [
-    { icon: "groups", text: "2 instructors, 3+ students" },
-    { icon: "schedule", text: "2 hours session" },
-    { icon: "check_circle", text: "All equipment included" },
-  ],
-  featured: true,   // 🔥 penting
-  popular: true,    // 🔥 kasih badge
-  waMessage:
-    "Halo Thom Bali Surf School! 🏄\n\nSaya tertarik dengan paket *Super Group Lesson* (350K IDR per orang / 1 session).\n\nBoleh info ketersediaan dan detail untuk group ini? Terima kasih!",
-},
+
 ];
 
 // ─── Gallery Images ─────────────────────────────────────────────────
@@ -228,7 +231,7 @@ export default function App() {
       <section className="relative min-h-[795px] flex flex-col justify-end px-6 pb-24 pt-32 overflow-hidden md:min-h-screen md:px-12 lg:px-20">
         <div className="absolute inset-0 z-0">
           <img
-            src="1.jpeg"
+            src="heronew.jpeg"
             alt="Surfer catching wave in Bali"
             className="w-full h-full object-cover"
           />
